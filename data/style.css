@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    font-family: Roboto;
+    font-weight: 400;
+    background-color: #18181a;
+    height: 8vh;
+    list-style-type: none;
+    font-size: 1.5vw;
+    gap: 12vw;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 10px 20px rgba(3, 3, 0, 0.7), 0 6px 6px rgba(1, 1, 1, 0.5);
+    z-index: 1;
+}
+#mag {
+    color: #eb6225;
+}
+#shop {
+    color: #8ea540;
+}
+ul, .icons, .center {
+    display: flex;
+}
+li:not(.icons,.order){
+    color: gray;
+}
+.center {
+    margin-left: 0.6vw;
+}
+.icons {
+    gap: 2vw;
+}
+.logo {
+    margin-left: 10vw;
+}
+.center {
+    gap: 3vw;
+}
+.centers:hover {
+    color: white;
+    cursor: pointer;
+}
+.order {
+    color: #e2b164;
+    border: solid 0.2vw #e2b164;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+.order:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #5c4626;
+}
+#mag:hover , #shop:hover {
+    cursor: pointer;
+}
+.backgr {
+    width: 100%;
+    margin-top: 7vh;
+}
+.orders {
+    color: #e2b164;
+    border: solid 0.2vw #e2b164;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-size: 1.5vw;
+    font-family: Roboto;
+    width: 7vw;
+    position: relative;
+    left: 10vw;
+}
+.orders:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #5c4626;
+}
+.best {
+    font-family: Burgerfont;
+    font-size: 5vw;
+    color: #f1ae49;
+}
+.move {
+    position: relative;
+    left: 70vw;
+    bottom: 68vh;
+    
+}
+.descriptors {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.food1 {
+    position: relative;
+    left: 2.7vw;
+    width: 6vw;
+}
+.food1div {
+    position: relative;
+    bottom: 30vh;
+    left: 5vw;
+}
+.food2div {
+    position: relative;
+    left: 43vw;
+    bottom: 50vh;
+}
+.food2 {
+    position: relative;
+    left: 2.7vw;
+    width: 6vw;
+}
+.food3div {
+    position: relative;
+    left: 76vw;
+    bottom: 73vh;
+}
+.food3 {
+    position: relative;
+    width: 6vw;
+    left: 2.7vw;
+}
+.foodz {
+    height: 3vh;
+    width: 100%;
+}
+.bottom {
+    height: 50vh;
+    background-color: #1a1817;
+    width: 100%;
+}
+.bottomz {
+position: relative;
+top: 4vh;
+left: 20vw;
+}
+body {
+    overflow-x: hidden;
+}
+.burgerzone {
+    font-family: Burgerfont;
+    font-size: 4vw;
+    position: relative;
+    color: white;
+    left: 55vw;
+    bottom: 30vh;
+}
+@font-face {
+    font-family: 'Burgerfont';
+    src: url(/Demo_Fonts/Fontspring-DEMO-toruspro-semibold.otf);
+}
